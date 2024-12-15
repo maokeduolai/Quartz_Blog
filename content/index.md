@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Welcome!
+date: 2024-12-15
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+欢迎你来到我的站点，这是一个正在建设中的博客，会在完成基础功能建设后补充首页！
