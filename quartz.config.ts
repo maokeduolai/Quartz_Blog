@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       projectId: 'pe8fln0rtr'
     },
     locale: "zh-CN",
-    baseUrl: "xulihang.pages.dev",
+    baseUrl: "blog.xulihang.work",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     generateSocialImages: false,

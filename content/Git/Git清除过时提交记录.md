@@ -13,10 +13,6 @@ tags:
 
 1. 使用 `git log` 查找你想要保留的最近一次提交的哈希值（例如，`<commit-hash>`）。
 2. 使用 `git checkout --orphan temp-branch` 创建一个新的分支，且该分支没有任何提交历史。
-
-   >[!info]
-   >`--orphan` 选项用于创建一个没有父提交的新分支。换句话说，它会创建一个孤立的分支，分支上没有任何提交历史记录。这样可以在这个新分支上从头开始提交，而不会继承任何现有的提交历史。
-
 3. 使用 `git add .` 和 `git commit -m "Clean old commit"` 提交当前的工作目录。
 4. 使用 `git rebase --onto temp-branch <commit-hash> master` 将 `master` 分支 `<commit-hash>` 后的所有提交应用到 `temp-branch` 上，并将 `master` 分支变基到当前最新的 `temp-branch` 提交记录上。
 
