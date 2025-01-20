@@ -1,3 +1,12 @@
+---
+title: 美观好用：Obsidian+Quartz+Cloudflare Pages快速博客发布指南
+date: 2025-1-20
+tags:
+    - Obsidian
+    - Quartz
+    - Cloudflare
+---
+
 # 起源
 
 学各种东西的过程中零零散散整理了不少文字，也有一些自己的想法，一直放在本地过段时间就再也想不起来在哪儿了，不如拿出来放在个人站上，还可以与他人讨论。
