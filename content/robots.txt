@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Sitemap: https://www.xulihang.work/sitemap.xml
+Disallow: /tags/
+Disallow: /static/
